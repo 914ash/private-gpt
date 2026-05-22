@@ -1,24 +1,26 @@
-# private-gpt
+# private-gpt reference snapshot
 
-This repository is a reference snapshot used for local experimentation with private document question-answering and RAG workflows. It is not presented as the upstream PrivateGPT project.
+This repository is a reference snapshot for local experimentation with private document question-answering and retrieval-augmented generation workflows.
+
+It is not presented as the upstream PrivateGPT project.
 
 - **Status:** Reference snapshot
 - **Stack:** Python, FastAPI, local RAG components, Gradio UI
-- **Problem:** Useful for studying a private document-QA stack locally without treating the repo as current original product work.
+- **Problem:** Private document-QA stacks are useful to study locally, but a fork should not be confused with current original product work.
 
-## What This Repo Is
+## What this repo is
 
 - A preserved codebase snapshot for local experimentation
 - A reference point for private document-QA architecture and API shape
 - A comparison artifact alongside newer portfolio work in workflow systems and analysis tooling
 
-## What This Repo Is Not
+## What this repo is not
 
 - It is not the canonical upstream PrivateGPT repository.
 - It is not positioned as a current flagship project in this portfolio.
 - It should not be read as a claim of authorship over the upstream system design.
 
-## When To Use It
+## When to use it
 
 Use this repo if you want to inspect:
 
@@ -28,6 +30,6 @@ Use this repo if you want to inspect:
 
 For the actively maintained upstream project and current documentation, refer to the upstream PrivateGPT project directly.
 
-## Local Use
+## Local use
 
-This snapshot keeps the original project layout, including the Python package, settings files, tests, and local model/data folders. Read `pyproject.toml`, `settings.yaml`, and the package code under `private_gpt/` if you need to inspect the implementation.
+This snapshot keeps the original project layout, including the Python package, settings files, tests and local model/data folders. Read `pyproject.toml`, `settings.yaml` and the package code under `private_gpt/` if you need to inspect the implementation.
